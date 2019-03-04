@@ -18,5 +18,18 @@ public class Jugador {
 	public void setX(int x) {
 		this.x = x;
 	}
+	public int derecha() {
+		return x + 1;
+	}
+	public int izquierda() {
+		return x - 1;
+	}
+	public int abajo() {
+		return y +1;
+	}
+
+	public int arriba() {
+		return y - 1;
+	}
 
 }
